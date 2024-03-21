@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">My Personal Portfolio</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <section id="about" class="section">
+        <div class="about-header">
+            <header>
+                <h1 class="name">Luigi Miguel S. Nalzaro</h1>
+            </header>
+        
+            <div class="hr-container">
+                <hr class="image-line">
+            </div>
+        </div>
+    
+        <div class="about-container">
+            <img src="Images/420947661_699832705665741_495399442211476034_n.jpg" alt="Your Image" class="about-image">
+            
+            <div class="about-content">
+                <h2 class="section-title1">About Me</h2>
+                <p class="section-content1">I am Luigi Miguel S. Nalzaro, a 21-year old individual on a journey of growth and learning.</p>
+                <p class="section-content1">My current aspiration is to successfully graduate and embark on a fulfilling career path.</p>
+            </div>
+        </div>
+    </section>       
+
+    <section id="portfolio" class="section">
+        <h2 class="section-title3">Skills</h2>
+        <div class="project1">
+            <h3 class="project-title">Front End Development</h3>
+            <p class="project-description">HTML</p>
+            <p class="project-description">CSS</p>
+            <p class="project-description">JavaScript</p>
+        </div>
+
+        <br>
+
+        <div class="project2">
+            <h3 class="project-title">UI/UX Design</h3>
+            <p class="project-description">Adobe XD</p>
+            <p class="project-description">Figma</p>
+            <p class="project-description">Sketch</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2 class="section-title2">Projects</h2>
+        <div class="project">
+            <div class="image-container">
+                <img src="Images/423036226_6989822151128107_7977318191112224356_n.png" alt="Project 1" class="another-image1">
+                <h1 class="description">Profile Portfolio</h1>
+                <div class="description-para">This project was made on prelim, where we were tasked to create a portfolio consisting of 4 factors, the home, project, education and experiences. This project was finished within 3 days, especially that it took too much time because there are literally 4 pages I had to create.</div>
+            </div>
+            <div class="image-container">
+                <img src="Images/image12.png" alt="Project 2" class="another-image2">
+                <h1 class="description2">Sign Up Interface</h1>
+                <div class="description-para2">This project was made, because our subject teacher on database, asked us to do so, this is one of the most difficult I've ever tried to make, because it needed database and you'll have to link it to the database for it to run.</div>
+            </div>
+            <div class="image-container">
+                <img src="Images/423472561_708642291472212_2218982255625125939_n.png" alt="Project 3" class="another-image3">
+                <h1 class="description3">CSS Box Model</h1>
+                <div class="description-para3">This project was made on our last meeting on this subject, we were tasked to create a project where we use float to adjust the images and add columns on each items, it was also a bit difficult since, it took a bit much of a time to finish it.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <h2 class="section-title">Achievements</h2>
+        <ul class="achievement-list">
+            <li class="achievement-item">Graduated Elementary</li>
+            <li class="achievement-item">Graduated HighSchool</li>
+            <li class="achievement-item">CSS NC2 Certificate</li>
+        </ul>
+    </section>    
+
+    <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-item">
+            <h3 class="education-title">Elementary</h3>
+            <p class="education-description">DJPRCS (2009 - 2015)</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">High School</h3>
+            <p class="education-description">GCCNHS (2015 - 2020)</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">Senior High School</h3>
+            <p class="education-description">GCCNHS (2020 - 2021)</p>
+        </div>
+        <div class="education-item">
+            <h3 class="education-title">College</h3>
+            <p class="education-description">GCC (2021 - Ongoing)</p>
+        </div>
+    </section>    
+
+    <section id="contact-info" class="section">
+        <h1>My Contact Information</h1>
+        <p>Email: nalzaroluigi3@gmail.com</p>
+        <p>Phone: (+63)946 - 108 - 8665</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <form action="#" class="contact-form">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" class="form-textarea" required></textarea>
+            <div class="submit">
+                <button type="submit" class="form-button">Send</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-links">
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/profile.php?id=61551505995838&mibextid=ZbWKwL" class="social-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon">
+                        <a href="https://www.instagram.com/cre8ivework5/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&fbclid=IwAR0WIQu6LYYf09UAFI98cOJOl5b8RntICL1VNX-mhdO512GiHmliX0GGqmg" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon">
+                        <a href="https://twitter.com/Cre8iv3Work5?fbclid=IwAR27S3EBA0j-9NsgiusGMOjrhC8JRkPgw5HQjq8_rbi1TqchhJaIxTuLHBM" class="social-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon">
+                        <a href="https://www.youtube.com/@Cre8iv3Works" class="social-link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon">
+                        <a href="https://www.tiktok.com/@cre8iv3works/" class="social-link" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-text">&copy; 2024 Luigi Miguel S. Nalzaro. All rights reserved.</p>
+    </footer>        
+</body>
+</html>
